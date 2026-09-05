@@ -3,7 +3,7 @@
   "tagline": "The Stage is Yours — where every emotion finds its spotlight.",
   "description": "The Dramatics Club of IIT Bhilai. From stage plays to street theatre, mime to mono-acts, we turn raw emotion into performance.",
   "accentColor": "#d4a853",
-  "logo": "",
+  "logo": "assets/Logo.jpg",
 
   "about": {
     "title": "What We Do",
@@ -75,28 +75,34 @@
 
   "team": [
     {
-      "name": "Mahesh",
+      "name": "Nikhila Royal Anala",
       "role": "Coordinator",
       "image": "",
       "quote": "Theatre taught me that vulnerability on stage is the greatest strength."
     },
     {
-      "name": "Core Member",
-      "role": "Stage Play Lead",
+      "name": "Priyanka Bhanarkar",
+      "role": "Writing Head",
       "image": "",
       "quote": "Every rehearsal is a new discovery — the script is just the starting point."
     },
     {
-      "name": "Core Member",
-      "role": "Mime Artist",
+      "name": "Zohaib Adil",
+      "role": "PR Head",
       "image": "",
-      "quote": "When you can't use words, you realise how much the body already knows."
+      "quote": "The best stories are the ones people can't stop talking about."
     },
     {
-      "name": "Core Member",
-      "role": "Writer & Director",
+      "name": "Atharva Sarwade",
+      "role": "Production Head",
       "image": "",
-      "quote": "The best scripts come from 2 AM conversations in the hostel common room."
+      "quote": "A good set doesn't just frame the scene — it becomes part of the story."
+    },
+    {
+      "name": "Aritro Rajwar",
+      "role": "Technical Head",
+      "image": "",
+      "quote": "When the lights hit right and the sound carries, the audience forgets they're watching."
     }
   ],
 

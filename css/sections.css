@@ -24,6 +24,12 @@
   letter-spacing: var(--ls-tight);
 }
 
+.nav-logo {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
 .nav-links {
   display: flex;
   align-items: center;

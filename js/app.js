@@ -38,7 +38,14 @@ const App = (() => {
     }
 
     // ── Nav brand ────────────────────────────────
-    setText('navBrand', data.name);
+    const brand = document.getElementById('navBrand');
+    if (brand) {
+      if (data.logo) {
+        brand.innerHTML = `<img src="${esc(data.logo)}" alt="${esc(data.name)}" class="nav-logo">`;
+      } else {
+        brand.textContent = data.name;
+      }
+    }
 
     // ── Hero ─────────────────────────────────────
     setText('heroClubName', data.name);
