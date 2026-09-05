@@ -3,7 +3,7 @@
 > A website introducing **[Club Name]** to someone who has never heard of it.  
 > Built for the **HelloWorld Hackathon** by OpenLake, IIT Bhilai.
 
-**Live site:** [TODO: add hosted URL]  
+**Live site:** [hasnetwork.github.io/HelloWorld](https://hasnetwork.github.io/HelloWorld/)  
 **Repository:** [github.com/HasNetwork/HelloWorld](https://github.com/HasNetwork/HelloWorld)
 
 ---
