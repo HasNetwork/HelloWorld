@@ -41,7 +41,7 @@ const App = (() => {
     const brand = document.getElementById('navBrand');
     if (brand) {
       if (data.logo) {
-        brand.innerHTML = `<img src="${esc(data.logo)}" alt="${esc(data.name)}" class="nav-logo">`;
+        brand.innerHTML = `<img src="${esc(data.logo)}" alt="${esc(data.name)}" class="nav-logo"><span>${esc(data.name)}</span>`;
       } else {
         brand.textContent = data.name;
       }

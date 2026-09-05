@@ -6,12 +6,23 @@ const Glass = (() => {
   let mouseX = -1000, mouseY = -1000;
 
   function init() {
+    initCurtain();
     initCursorGlow();
     initCardTilt();
     initNavScroll();
     initMobileNav();
     initThemeToggle();
     initSmoothScroll();
+  }
+
+  // ── Curtain reveal ───────────────────────────────
+  function initCurtain() {
+    const curtain = document.getElementById('curtain');
+    if (!curtain) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    setTimeout(() => curtain.classList.add('open'), 300);
+    setTimeout(() => curtain.classList.add('done'), 1800);
   }
 
   // ── Cursor Glow ──────────────────────────────────

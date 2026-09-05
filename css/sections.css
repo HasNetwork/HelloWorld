@@ -22,6 +22,9 @@
   font-size: var(--fs-body-lg);
   color: var(--text-primary);
   letter-spacing: var(--ls-tight);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
 }
 
 .nav-logo {
