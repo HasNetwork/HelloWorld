@@ -1,0 +1,106 @@
+{
+  "name": "Club Name",
+  "tagline": "One line that captures the club's spirit",
+  "description": "A longer description of what the club does, aimed at someone who has never heard of it.",
+  "accentColor": "#0a84ff",
+  "logo": "",
+
+  "about": {
+    "title": "What We Do",
+    "description": "A brief paragraph about the club's mission and what members actually spend their time on.",
+    "highlights": [
+      {
+        "icon": "rocket",
+        "title": "Build",
+        "description": "We build real projects that matter — open source tools, campus utilities, and experiments."
+      },
+      {
+        "icon": "users",
+        "title": "Learn",
+        "description": "Weekly workshops, reading groups, and peer mentoring — learning is a team sport here."
+      },
+      {
+        "icon": "zap",
+        "title": "Compete",
+        "description": "Hackathons, coding contests, and inter-college challenges — we show up and we ship."
+      }
+    ]
+  },
+
+  "interactive": {
+    "title": "Try It Yourself",
+    "description": "A hands-on taste of what our club does. Go ahead — experiment.",
+    "type": "playground",
+    "placeholder": true
+  },
+
+  "events": [
+    {
+      "title": "Event One",
+      "date": "2025-01-15",
+      "description": "A short description of this event or project.",
+      "image": "",
+      "tag": "Hackathon"
+    },
+    {
+      "title": "Event Two",
+      "date": "2025-03-20",
+      "description": "Another event or achievement worth showcasing.",
+      "image": "",
+      "tag": "Workshop"
+    },
+    {
+      "title": "Event Three",
+      "date": "2025-08-10",
+      "description": "The most recent or upcoming event.",
+      "image": "",
+      "tag": "Competition"
+    }
+  ],
+
+  "team": [
+    {
+      "name": "Member Name",
+      "role": "Lead / Coordinator",
+      "image": "",
+      "quote": "Why I joined and what keeps me here."
+    },
+    {
+      "name": "Member Name",
+      "role": "Core Member",
+      "image": "",
+      "quote": "A sentence about what the club means to me."
+    },
+    {
+      "name": "Member Name",
+      "role": "Core Member",
+      "image": "",
+      "quote": "My favourite thing we've built together."
+    },
+    {
+      "name": "Member Name",
+      "role": "Core Member",
+      "image": "",
+      "quote": "Why I'd recommend this club to any first-year."
+    }
+  ],
+
+  "join": {
+    "title": "Join Us",
+    "description": "Interested? We'd love to have you. No prerequisites, no gatekeeping — just curiosity.",
+    "cta": "Get In Touch",
+    "links": {
+      "email": "",
+      "instagram": "",
+      "linkedin": "",
+      "github": "",
+      "discord": "",
+      "website": ""
+    }
+  },
+
+  "footer": {
+    "college": "IIT Bhilai",
+    "year": 2025
+  }
+}
