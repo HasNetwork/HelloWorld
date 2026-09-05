@@ -73,7 +73,7 @@ h4 { font-size: var(--fs-display-sm); }
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, var(--accent) 0%, #f472b6 40%, #fbbf24 100%);
+  background: linear-gradient(135deg, var(--color-warm, #c2544d) 0%, var(--accent) 50%, var(--color-wine, #7a2948) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
