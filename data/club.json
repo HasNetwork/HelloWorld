@@ -28,10 +28,9 @@
   },
 
   "interactive": {
-    "title": "Experience It",
-    "description": "A little taste of what happens when our club gets together. Go ahead — play around.",
-    "type": "playground",
-    "placeholder": true
+    "title": "Feel the Rhythm",
+    "description": "Tap the pads, toggle the sequencer, and compose a beat — right here in your browser.",
+    "type": "rhythm-pad"
   },
 
   "events": [

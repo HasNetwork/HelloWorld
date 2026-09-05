@@ -56,6 +56,10 @@ const App = (() => {
     if (data.interactive) {
       setText('interactiveTitle', data.interactive.title);
       setText('interactiveDescription', data.interactive.description);
+      const interactiveArea = document.getElementById('interactiveArea');
+      if (interactiveArea && typeof Interactive !== 'undefined') {
+        Interactive.init(interactiveArea);
+      }
     }
 
     // ── Events ───────────────────────────────────

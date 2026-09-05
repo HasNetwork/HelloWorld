@@ -68,12 +68,12 @@
         } else {
           document.querySelector('.redirect-box p').textContent =
             'No form link configured yet. Head back to the main page.';
-          document.getElementById('fallbackLink').href = '/';
+          document.getElementById('fallbackLink').href = './';
           document.getElementById('fallbackLink').textContent = 'Back to home';
           document.querySelector('.spinner').style.display = 'none';
         }
       } catch {
-        document.getElementById('fallbackLink').href = '/';
+        document.getElementById('fallbackLink').href = './';
         document.getElementById('fallbackLink').textContent = 'Back to home';
         document.querySelector('.spinner').style.display = 'none';
       }
