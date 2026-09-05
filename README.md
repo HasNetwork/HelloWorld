@@ -80,5 +80,7 @@ No dependencies to install, no build tools, no `npm install`.
 
 ## Team
 
-- **Harsh Jain**
-- Built during the HelloWorld 24-hour hackathon, September 2026
+- **Harshit Shah** (B26EC016)
+- **Anubhav Mishra** (B26ME010)
+
+Built during the HelloWorld 24-hour hackathon, September 2026
