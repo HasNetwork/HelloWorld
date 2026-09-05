@@ -31,14 +31,14 @@
     "title": "Behind the Curtain",
     "description": "Performances, rehearsals, and everything in between — the moments that make Drishya.",
     "images": [
-      { "src": "/assets/team.png", "caption": "Stage Play — full house performance" },
-      { "src": "/assets/Inter IIT.png", "caption": "Mime act at Inter-IIT" },
+      { "src": "assets/team.png", "caption": "Stage Play — full house performance" },
+      { "src": "assets/Inter IIT.png", "caption": "Mime act at Inter-IIT" },
       { "src": "", "caption": "Nukkad Natak on campus" },
       { "src": "", "caption": "Murder Mystery Night" },
       { "src": "", "caption": "Mono-act competition" },
       { "src": "", "caption": "Behind the scenes — rehearsal" },
       { "src": "", "caption": "Street theatre crowd" },
-      { "src": "/assets/improv.png", "caption": "Improv Act" }
+      { "src": "assets/improv.png", "caption": "Improv Act" }
     ]
   },
 
