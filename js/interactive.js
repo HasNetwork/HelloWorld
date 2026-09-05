@@ -1,34 +1,44 @@
 /**
- * Photo gallery with lightbox — shows past events, BTS, performances.
+ * Horizontal scroll photo gallery with lightbox.
  */
 const Interactive = (() => {
   let images = [];
   let currentIndex = 0;
   let lightbox = null;
 
+  const PLACEHOLDERS = ['🎭', '🎪', '🎬', '🎤', '✨', '🌟', '💫', '🎶'];
+
   function build(container, galleryData) {
     container.innerHTML = '';
     container.classList.add('photo-gallery');
     images = galleryData.images || [];
 
-    const grid = document.createElement('div');
-    grid.className = 'gallery-grid';
+    const scroll = document.createElement('div');
+    scroll.className = 'gallery-scroll';
 
     images.forEach((img, i) => {
       const item = document.createElement('button');
       item.className = 'gallery-item';
       item.setAttribute('aria-label', img.caption || `Photo ${i + 1}`);
+
+      const inner = img.src
+        ? `<img src="${img.src}" alt="${img.caption || ''}" loading="lazy">`
+        : `<div class="gallery-placeholder"><span>${PLACEHOLDERS[i % PLACEHOLDERS.length]}</span></div>`;
+
       item.innerHTML = `
-        <img src="${img.src}" alt="${img.caption || ''}" loading="lazy">
+        ${inner}
         <div class="gallery-overlay">
           <span>${img.caption || ''}</span>
         </div>
       `;
-      item.addEventListener('click', () => openLightbox(i));
-      grid.appendChild(item);
+
+      if (img.src) {
+        item.addEventListener('click', () => openLightbox(i));
+      }
+      scroll.appendChild(item);
     });
 
-    container.appendChild(grid);
+    container.appendChild(scroll);
     buildLightbox();
     document.addEventListener('keydown', onKey);
   }
@@ -61,6 +71,7 @@ const Interactive = (() => {
   }
 
   function openLightbox(index) {
+    if (!images[index].src) return;
     currentIndex = index;
     updateLightbox();
     lightbox.hidden = false;
@@ -73,7 +84,12 @@ const Interactive = (() => {
   }
 
   function navigate(dir) {
-    currentIndex = (currentIndex + dir + images.length) % images.length;
+    let next = (currentIndex + dir + images.length) % images.length;
+    let tries = images.length;
+    while (!images[next].src && tries-- > 0) {
+      next = (next + dir + images.length) % images.length;
+    }
+    currentIndex = next;
     updateLightbox();
   }
 
