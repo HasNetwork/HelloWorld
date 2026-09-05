@@ -1,35 +1,35 @@
 {
   "name": "Club Name",
-  "tagline": "One line that captures the club's spirit",
+  "tagline": "One line that captures the club's spirit — where art, expression, and community collide.",
   "description": "A longer description of what the club does, aimed at someone who has never heard of it.",
-  "accentColor": "#0a84ff",
+  "accentColor": "#e040a0",
   "logo": "",
 
   "about": {
     "title": "What We Do",
-    "description": "A brief paragraph about the club's mission and what members actually spend their time on.",
+    "description": "A space where creativity isn't a side quest — it's the main event. From stage performances to art jams, we make culture happen on campus.",
     "highlights": [
       {
-        "icon": "rocket",
-        "title": "Build",
-        "description": "We build real projects that matter — open source tools, campus utilities, and experiments."
+        "icon": "music",
+        "title": "Perform",
+        "description": "Open mics, stage nights, and college fests — we give every voice and instrument a spotlight."
       },
       {
-        "icon": "users",
-        "title": "Learn",
-        "description": "Weekly workshops, reading groups, and peer mentoring — learning is a team sport here."
+        "icon": "palette",
+        "title": "Create",
+        "description": "Art workshops, design sprints, and collaborative murals — we make things that didn't exist before."
       },
       {
-        "icon": "zap",
-        "title": "Compete",
-        "description": "Hackathons, coding contests, and inter-college challenges — we show up and we ship."
+        "icon": "sparkles",
+        "title": "Celebrate",
+        "description": "Cultural fests, themed nights, and campus traditions — we bring people together through shared experience."
       }
     ]
   },
 
   "interactive": {
-    "title": "Try It Yourself",
-    "description": "A hands-on taste of what our club does. Go ahead — experiment.",
+    "title": "Experience It",
+    "description": "A little taste of what happens when our club gets together. Go ahead — play around.",
     "type": "playground",
     "placeholder": true
   },
@@ -37,64 +37,62 @@
   "events": [
     {
       "title": "Event One",
-      "date": "2025-01-15",
-      "description": "A short description of this event or project.",
+      "date": "2025-02-10",
+      "description": "A cultural night that brought the entire campus together under one roof.",
       "image": "",
-      "tag": "Hackathon"
+      "tag": "Fest"
     },
     {
       "title": "Event Two",
-      "date": "2025-03-20",
-      "description": "Another event or achievement worth showcasing.",
+      "date": "2025-04-18",
+      "description": "An open workshop where anyone could walk in and leave with something they made.",
       "image": "",
       "tag": "Workshop"
     },
     {
       "title": "Event Three",
-      "date": "2025-08-10",
-      "description": "The most recent or upcoming event.",
+      "date": "2025-09-05",
+      "description": "The flagship performance — months of practice, one unforgettable evening.",
       "image": "",
-      "tag": "Competition"
+      "tag": "Performance"
     }
   ],
 
   "team": [
     {
       "name": "Member Name",
-      "role": "Lead / Coordinator",
+      "role": "Coordinator",
       "image": "",
-      "quote": "Why I joined and what keeps me here."
+      "quote": "This club gave me a stage when I didn't know I needed one."
     },
     {
       "name": "Member Name",
       "role": "Core Member",
       "image": "",
-      "quote": "A sentence about what the club means to me."
+      "quote": "The best part is showing up with nothing planned and leaving with a new piece."
     },
     {
       "name": "Member Name",
       "role": "Core Member",
       "image": "",
-      "quote": "My favourite thing we've built together."
+      "quote": "I came for the performances, I stayed for the people."
     },
     {
       "name": "Member Name",
       "role": "Core Member",
       "image": "",
-      "quote": "Why I'd recommend this club to any first-year."
+      "quote": "If you think IIT is only about code, we'd like a word."
     }
   ],
 
   "join": {
-    "title": "Join Us",
-    "description": "Interested? We'd love to have you. No prerequisites, no gatekeeping — just curiosity.",
+    "title": "Be Part of It",
+    "description": "No auditions, no prerequisites — just show up with curiosity. We'll take it from there.",
     "cta": "Get In Touch",
     "links": {
       "email": "",
       "instagram": "",
       "linkedin": "",
-      "github": "",
-      "discord": "",
       "website": ""
     }
   },
