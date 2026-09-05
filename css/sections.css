@@ -246,7 +246,7 @@
   overflow: hidden;
 }
 
-.interactive-container:has(.rhythm-machine) {
+.interactive-container:has(.improv-machine) {
   border-style: solid;
 }
 
@@ -266,164 +266,130 @@
   font-size: var(--fs-body-sm);
 }
 
-/* ── Rhythm Machine ─────────────────────────── */
-.rhythm-machine {
+/* ── Improv Prompt Generator ────────────────── */
+.improv-machine {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: var(--sp-8);
-  padding: var(--sp-6);
+  align-items: center;
+  gap: var(--sp-6);
+  padding: var(--sp-8) var(--sp-6);
 }
 
-.pad-grid {
+.improv-intro {
+  color: var(--text-secondary);
+  font-size: var(--fs-body-sm);
+  text-align: center;
+}
+
+.improv-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--sp-3);
-  max-width: 480px;
-  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--sp-4);
+  width: 100%;
+  max-width: 640px;
 }
 
-.rhythm-pad {
-  aspect-ratio: 1;
-  border-radius: var(--glass-radius);
-  background: color-mix(in srgb, var(--pad-color) 15%, var(--bg-surface));
-  border: 1px solid color-mix(in srgb, var(--pad-color) 25%, transparent);
+.improv-card {
+  padding: var(--sp-6);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s var(--ease-out);
+  position: relative;
+  min-height: 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--sp-1);
-  cursor: pointer;
-  transition: all 0.15s ease;
+  gap: var(--sp-2);
   user-select: none;
-  -webkit-tap-highlight-color: transparent;
-  position: relative;
-  overflow: hidden;
 }
 
-.rhythm-pad::after {
+.improv-card::before {
   content: '';
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  background: radial-gradient(circle, var(--pad-color), transparent 70%);
-  opacity: 0;
-  transition: opacity 0.15s;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  pointer-events: none;
 }
 
-.rhythm-pad:hover {
-  transform: scale(1.04);
-  border-color: color-mix(in srgb, var(--pad-color) 50%, transparent);
+.improv-card.locked::before {
+  border-color: var(--accent);
 }
 
-.rhythm-pad:active,
-.rhythm-pad.pad-hit {
-  transform: scale(0.95);
+.improv-card.locked::after {
+  content: '🔒';
+  position: absolute;
+  top: var(--sp-2);
+  right: var(--sp-2);
+  font-size: 0.75rem;
 }
 
-.rhythm-pad.pad-hit::after {
-  opacity: 0.4;
+.improv-card.spinning {
+  opacity: 0.7;
 }
 
-.pad-name {
-  font-size: var(--fs-body-sm);
+.improv-card.spinning .improv-card-value {
+  animation: shimmer 0.3s ease infinite alternate;
+}
+
+.improv-card.revealed {
+  animation: cardReveal 0.5s ease;
+}
+
+@keyframes cardReveal {
+  0% { transform: scale(1.06); box-shadow: 0 0 20px var(--accent-glow); }
+  100% { transform: scale(1); box-shadow: none; }
+}
+
+.improv-card-icon {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.improv-card-label {
+  font-size: var(--fs-caption);
   font-weight: 600;
-  color: var(--text-primary);
-  position: relative;
-  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: var(--ls-wide);
+  color: var(--accent);
 }
 
-.pad-key {
-  font-size: var(--fs-caption);
-  color: var(--text-muted);
-  font-family: var(--font-body);
-  border: 1px solid var(--glass-border);
-  border-radius: 4px;
-  padding: 1px 6px;
-  position: relative;
-  z-index: 1;
-}
-
-/* ── Sequencer ──────────────────────────────── */
-.sequencer-wrap {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-.seq-controls {
-  display: flex;
-  gap: var(--sp-3);
-  margin-bottom: var(--sp-4);
-  justify-content: center;
-}
-
-.seq-btn {
+.improv-card-value {
   font-size: var(--fs-body-sm);
-  padding: var(--sp-2) var(--sp-6);
-}
-
-.seq-grid {
-  display: grid;
-  grid-template-columns: 60px repeat(16, 1fr);
-  gap: 3px;
-  min-width: 600px;
-}
-
-.seq-label {
-  font-size: var(--fs-caption);
-  color: var(--text-secondary);
+  color: var(--text-primary);
+  line-height: var(--lh-snug);
+  font-family: var(--font-display);
+  font-style: italic;
+  min-height: 2.4em;
   display: flex;
   align-items: center;
-  padding-right: var(--sp-2);
-  white-space: nowrap;
 }
 
-.seq-cell {
-  aspect-ratio: 1;
-  border-radius: 4px;
-  background: var(--bg-surface);
-  border: 1px solid var(--glass-border);
-  cursor: pointer;
-  transition: all 0.1s;
-  min-width: 24px;
+.improv-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-3);
 }
 
-.seq-cell-beat {
-  border-left: 2px solid color-mix(in srgb, var(--accent) 30%, transparent);
+.improv-generate {
+  font-size: var(--fs-body);
 }
 
-.seq-cell:hover {
-  background: color-mix(in srgb, var(--pad-color) 20%, var(--bg-surface));
-}
-
-.seq-cell.seq-active {
-  background: color-mix(in srgb, var(--pad-color) 50%, var(--bg-surface));
-  border-color: var(--pad-color);
-  box-shadow: 0 0 8px color-mix(in srgb, var(--pad-color) 30%, transparent);
-}
-
-.seq-cell.seq-playing {
-  box-shadow: 0 0 12px color-mix(in srgb, var(--pad-color) 50%, transparent);
-  border-color: var(--text-primary);
-}
-
-.seq-cell.seq-active.seq-playing {
-  background: var(--pad-color);
-  transform: scale(1.1);
+.improv-hint {
+  color: var(--text-muted);
+  font-size: var(--fs-caption);
 }
 
 @media (max-width: 640px) {
-  .pad-grid {
-    max-width: 320px;
+  .improv-grid {
+    grid-template-columns: 1fr;
   }
-  .seq-grid {
-    grid-template-columns: 48px repeat(16, 1fr);
-  }
-  .rhythm-pad {
-    gap: 0;
-  }
-  .pad-key {
-    display: none;
+  .improv-card {
+    min-height: 100px;
   }
 }
 

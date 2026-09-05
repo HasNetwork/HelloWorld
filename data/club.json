@@ -1,57 +1,64 @@
 {
-  "name": "Club Name",
-  "tagline": "One line that captures the club's spirit — where art, expression, and community collide.",
-  "description": "A longer description of what the club does, aimed at someone who has never heard of it.",
+  "name": "Drishya",
+  "tagline": "The Stage is Yours — where every emotion finds its spotlight.",
+  "description": "The Dramatics Club of IIT Bhilai. From stage plays to street theatre, mime to mono-acts, we turn raw emotion into performance.",
   "accentColor": "#d4a853",
   "logo": "",
 
   "about": {
     "title": "What We Do",
-    "description": "A space where creativity isn't a side quest — it's the main event. From stage performances to art jams, we make culture happen on campus.",
+    "description": "Drishya is where stories come alive. We rehearse, we perform, we compete — and somewhere along the way, we discover parts of ourselves we didn't know existed.",
     "highlights": [
       {
-        "icon": "music",
-        "title": "Perform",
-        "description": "Open mics, stage nights, and college fests — we give every voice and instrument a spotlight."
+        "icon": "drama",
+        "title": "Stage Plays",
+        "description": "Full-length productions rehearsed over weeks — from classic adaptations to original scripts written by our members."
       },
       {
-        "icon": "palette",
-        "title": "Create",
-        "description": "Art workshops, design sprints, and collaborative murals — we make things that didn't exist before."
+        "icon": "mic",
+        "title": "Street Theatre",
+        "description": "Nukkad Natak that takes the stage to the people — raw, unfiltered, and impossible to ignore."
       },
       {
         "icon": "sparkles",
-        "title": "Celebrate",
-        "description": "Cultural fests, themed nights, and campus traditions — we bring people together through shared experience."
+        "title": "Mime & Mono-act",
+        "description": "When words aren't enough, the body speaks. Our mime and solo acts have represented IIT Bhilai at Inter-IIT."
       }
     ]
   },
 
   "interactive": {
-    "title": "Feel the Rhythm",
-    "description": "Tap the pads, toggle the sequencer, and compose a beat — right here in your browser.",
-    "type": "rhythm-pad"
+    "title": "Improv Prompt Generator",
+    "description": "Hit generate, get a random scene setup — use it for your next improv session or just for fun.",
+    "type": "improv"
   },
 
   "events": [
     {
-      "title": "Event One",
-      "date": "2025-02-10",
-      "description": "A cultural night that brought the entire campus together under one roof.",
+      "title": "Cultscape",
+      "date": "2026-03-15",
+      "description": "The grand cultural showdown — Drishya brought the house down with a murder mystery performance.",
       "image": "",
       "tag": "Fest"
     },
     {
-      "title": "Event Two",
-      "date": "2025-04-18",
-      "description": "An open workshop where anyone could walk in and leave with something they made.",
+      "title": "Inter-IIT Cultural Meet",
+      "date": "2026-01-20",
+      "description": "Represented IIT Bhilai in Mime (8th) and Online Short Film (4th) at the national stage.",
       "image": "",
-      "tag": "Workshop"
+      "tag": "Competition"
     },
     {
-      "title": "Event Three",
-      "date": "2025-09-05",
-      "description": "The flagship performance — months of practice, one unforgettable evening.",
+      "title": "Nukkad Natak Drive",
+      "date": "2025-10-12",
+      "description": "A street theatre campaign on campus addressing social awareness — performed across hostels.",
+      "image": "",
+      "tag": "Street Theatre"
+    },
+    {
+      "title": "Murder Mystery Night",
+      "date": "2025-08-22",
+      "description": "An immersive whodunit where the audience was part of the investigation. Sold out in hours.",
       "image": "",
       "tag": "Performance"
     }
@@ -59,46 +66,46 @@
 
   "team": [
     {
-      "name": "Member Name",
+      "name": "Mahesh",
       "role": "Coordinator",
       "image": "",
-      "quote": "This club gave me a stage when I didn't know I needed one."
+      "quote": "Theatre taught me that vulnerability on stage is the greatest strength."
     },
     {
-      "name": "Member Name",
-      "role": "Core Member",
+      "name": "Core Member",
+      "role": "Stage Play Lead",
       "image": "",
-      "quote": "The best part is showing up with nothing planned and leaving with a new piece."
+      "quote": "Every rehearsal is a new discovery — the script is just the starting point."
     },
     {
-      "name": "Member Name",
-      "role": "Core Member",
+      "name": "Core Member",
+      "role": "Mime Artist",
       "image": "",
-      "quote": "I came for the performances, I stayed for the people."
+      "quote": "When you can't use words, you realise how much the body already knows."
     },
     {
-      "name": "Member Name",
-      "role": "Core Member",
+      "name": "Core Member",
+      "role": "Writer & Director",
       "image": "",
-      "quote": "If you think IIT is only about code, we'd like a word."
+      "quote": "The best scripts come from 2 AM conversations in the hostel common room."
     }
   ],
 
   "join": {
-    "title": "Be Part of It",
-    "description": "No auditions, no prerequisites — just show up with curiosity. We'll take it from there.",
-    "cta": "Get In Touch",
+    "title": "Step On Stage",
+    "description": "No experience needed. No auditions. If you've ever felt something and wanted to express it — you're already one of us.",
+    "cta": "Join Drishya",
     "formLink": "",
     "links": {
       "email": "",
-      "instagram": "",
+      "instagram": "https://instagram.com/drishya_iitbhilai",
       "linkedin": "",
-      "website": ""
+      "website": "https://culturals.iitbhilai.ac.in/club/drishya"
     }
   },
 
   "footer": {
     "college": "IIT Bhilai",
-    "year": 2025
+    "year": 2026
   }
 }

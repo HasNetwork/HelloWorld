@@ -1,6 +1,6 @@
-# Club Name — IIT Bhilai
+# Drishya — IIT Bhilai
 
-> A website introducing **[Club Name]** to someone who has never heard of it.  
+> A website introducing **Drishya**, the Dramatics Club of IIT Bhilai, to someone who has never heard of it.  
 > Built for the **HelloWorld Hackathon** by OpenLake, IIT Bhilai.
 
 **Live site:** [hasnetwork.github.io/HelloWorld](https://hasnetwork.github.io/HelloWorld/)  
@@ -10,15 +10,17 @@
 
 ## What is this?
 
-A single-page club website designed to tell a first-year everything they need to know — what the club does, who's in it, what they've done, and how to join. The design uses a warm, cultural aesthetic with liquid glass effects, floating embers, scroll-driven animations, and a dark/light theme toggle.
+A single-page website for **Drishya** — IIT Bhilai's Dramatics Club. It tells a first-year everything they need to know: what the club does (stage plays, street theatre, mime, mono-acts), who runs it, what they've achieved, and how to join.
+
+The design uses a warm, theatrical aesthetic with liquid glass effects, floating embers, scroll-driven animations, and a dark/light theme toggle. An interactive **Improv Prompt Generator** lets visitors generate random scene setups for drama exercises.
 
 All content is data-driven from a single JSON file (`data/club.json`), making it easy to adapt for any club.
 
 ## About the Club
 
-**[Club Name]** — *[tagline]*
+**Drishya** — *The Stage is Yours*
 
-[Brief description of the club — to be filled in with real content.]
+The Dramatics Club of IIT Bhilai. From stage plays to street theatre, mime to mono-acts — Drishya turns raw emotion into performance. The club has represented IIT Bhilai at the Inter-IIT Cultural Meet (Mime — 8th place, Online Short Film — 4th place).
 
 ## How to run locally
 
@@ -35,13 +37,14 @@ All content is data-driven from a single JSON file (`data/club.json`), making it
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-That's it — no dependencies to install, no build tools, no `npm install`.
+No dependencies to install, no build tools, no `npm install`.
 
 ## Tech stack
 
 - **HTML, CSS, JavaScript** — no frameworks, no build step
 - **GSAP + ScrollTrigger** (via CDN) — scroll-driven animations
 - **Google Fonts** — Playfair Display (headings), DM Sans (body)
+- **Web Audio API** — (available for future interactive extensions)
 - Data loaded from `data/club.json` at runtime
 
 ## Project structure
@@ -58,6 +61,7 @@ That's it — no dependencies to install, no build tools, no `npm install`.
 ├── js/
 │   ├── app.js          — Data loader + section renderers
 │   ├── glass.js        — Cursor glow, card tilt, nav scroll, theme toggle
+│   ├── interactive.js  — Improv prompt generator
 │   ├── animations.js   — GSAP ScrollTrigger orchestration
 │   └── particles.js    — Floating embers canvas (hero background)
 ├── data/
@@ -76,5 +80,5 @@ That's it — no dependencies to install, no build tools, no `npm install`.
 
 ## Team
 
-- **Harsh Jain** — [TODO: add partner if duo]
+- **Harsh Jain**
 - Built during the HelloWorld 24-hour hackathon, September 2026
