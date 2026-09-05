@@ -26,7 +26,6 @@ const App = (() => {
 
     // ── Page title ───────────────────────────────
     document.title = `${data.name} — IIT Bhilai`;
-    document.getElementById('page-title')?.remove();
 
     // ── Accent colour override ───────────────────
     if (data.accentColor) {
