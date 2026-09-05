@@ -31,14 +31,14 @@
     "title": "Behind the Curtain",
     "description": "Performances, rehearsals, and everything in between — the moments that make Drishya.",
     "images": [
-      { "src": "", "caption": "Stage Play — full house performance" },
-      { "src": "", "caption": "Mime act at Inter-IIT" },
+      { "src": "assests/team.png", "caption": "Stage Play — full house performance" },
+      { "src": "assests/Inter IIT.png", "caption": "Mime act at Inter-IIT" },
       { "src": "", "caption": "Nukkad Natak on campus" },
       { "src": "", "caption": "Murder Mystery Night" },
       { "src": "", "caption": "Mono-act competition" },
       { "src": "", "caption": "Behind the scenes — rehearsal" },
       { "src": "", "caption": "Street theatre crowd" },
-      { "src": "", "caption": "Cast photo — annual production" }
+      { "src": "assests/improv.png", "caption": "Improv Act" }
     ]
   },
 
@@ -108,9 +108,9 @@
 
   "join": {
     "title": "Step On Stage",
-    "description": "No experience needed. No auditions. If you've ever felt something and wanted to express it — you're already one of us.",
+    "description": "No experience needed. If you've ever felt something and wanted to express it — you're already one of us.",
     "cta": "Join Drishya",
-    "formLink": "",
+    "formLink": "https://forms.gle/1TH98zjXVAjSftKCA",
     "links": {
       "email": "drishya@iitbhilai.ac.in",
       "instagram": "https://instagram.com/drishya_iitbhilai",
