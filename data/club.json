@@ -2,7 +2,7 @@
   "name": "Club Name",
   "tagline": "One line that captures the club's spirit — where art, expression, and community collide.",
   "description": "A longer description of what the club does, aimed at someone who has never heard of it.",
-  "accentColor": "#e040a0",
+  "accentColor": "#d4a853",
   "logo": "",
 
   "about": {
@@ -89,6 +89,7 @@
     "title": "Be Part of It",
     "description": "No auditions, no prerequisites — just show up with curiosity. We'll take it from there.",
     "cta": "Get In Touch",
+    "formLink": "",
     "links": {
       "email": "",
       "instagram": "",
