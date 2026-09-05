@@ -27,10 +27,20 @@
     ]
   },
 
-  "interactive": {
-    "title": "Improv Prompt Generator",
-    "description": "Hit generate, get a random scene setup — use it for your next improv session or just for fun.",
-    "type": "improv"
+  "gallery": {
+    "title": "Behind the Curtain",
+    "description": "Performances, rehearsals, and everything in between — the moments that make Drishya.",
+    "images": [
+      { "src": "https://culturals.iitbhilai.ac.in/assets/stageplay1-Mz8vTH6C.jpeg", "caption": "Stage Play — full house performance" },
+      { "src": "https://culturals.iitbhilai.ac.in/assets/mime1-2CZxfvFj.jpeg", "caption": "Mime act at Inter-IIT" },
+      { "src": "https://culturals.iitbhilai.ac.in/assets/nukkad1-BqxYz656.png", "caption": "Nukkad Natak on campus" },
+      { "src": "https://culturals.iitbhilai.ac.in/assets/murder1-Dj-aJ4jj.png", "caption": "Murder Mystery Night" },
+      { "src": "https://culturals.iitbhilai.ac.in/assets/monoact-BLZEEKNo.png", "caption": "Mono-act competition" },
+      { "src": "https://culturals.iitbhilai.ac.in/assets/mime4-CtOHxSII.png", "caption": "Mime rehearsal" },
+      { "src": "https://culturals.iitbhilai.ac.in/assets/nukkad2-C9FmZStv.png", "caption": "Street theatre crowd" },
+      { "src": "https://culturals.iitbhilai.ac.in/assets/murder2-Ba-pzfFl.png", "caption": "Behind the scenes — Murder Mystery" },
+      { "src": "https://culturals.iitbhilai.ac.in/assets/mime6-BHOA0PL-.png", "caption": "Mime performance" }
+    ]
   },
 
   "events": [
@@ -99,8 +109,7 @@
     "links": {
       "email": "",
       "instagram": "https://instagram.com/drishya_iitbhilai",
-      "linkedin": "",
-      "website": "https://culturals.iitbhilai.ac.in/club/drishya"
+      "linkedin": ""
     }
   },
 

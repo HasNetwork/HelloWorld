@@ -52,13 +52,13 @@ const App = (() => {
       renderAbout(data.about.highlights);
     }
 
-    // ── Interactive ──────────────────────────────
-    if (data.interactive) {
-      setText('interactiveTitle', data.interactive.title);
-      setText('interactiveDescription', data.interactive.description);
+    // ── Gallery ──────────────────────────────────
+    if (data.gallery) {
+      setText('interactiveTitle', data.gallery.title);
+      setText('interactiveDescription', data.gallery.description);
       const interactiveArea = document.getElementById('interactiveArea');
       if (interactiveArea && typeof Interactive !== 'undefined') {
-        Interactive.init(interactiveArea);
+        Interactive.init(interactiveArea, data.gallery);
       }
     }
 
