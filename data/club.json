@@ -4,7 +4,6 @@
   "description": "The Dramatics Club of IIT Bhilai. From stage plays to street theatre, mime to mono-acts, we turn raw emotion into performance.",
   "accentColor": "#d4a853",
   "logo": "assets/Logo.jpg",
-
   "about": {
     "title": "What We Do",
     "description": "Drishya is where stories come alive. We rehearse, we perform, we compete — and somewhere along the way, we discover parts of ourselves we didn't know existed.",
@@ -26,28 +25,23 @@
       }
     ]
   },
-
   "gallery": {
     "title": "Behind the Curtain",
     "description": "Performances, rehearsals, and everything in between — the moments that make Drishya.",
     "images": [
       { "src": "assets/team.png", "caption": "Stage Play — full house performance" },
       { "src": "assets/Inter IIT.png", "caption": "Mime act at Inter-IIT" },
-      { "src": "", "caption": "Nukkad Natak on campus" },
-      { "src": "", "caption": "Murder Mystery Night" },
-      { "src": "", "caption": "Mono-act competition" },
-      { "src": "", "caption": "Behind the scenes — rehearsal" },
-      { "src": "", "caption": "Street theatre crowd" },
+      { "src": "assets/inter iit team.jpg", "caption": "Inter IIT Winners Team" },
+      { "src": "assets/BTS.jpg", "caption": "Behind the scenes — rehearsal" },
       { "src": "assets/improv.png", "caption": "Improv Act" }
     ]
   },
-
   "events": [
     {
       "title": "Cultscape",
       "date": "2026-03-15",
-      "description": "The grand cultural showdown — Drishya brought the house down with a murder mystery performance.",
-      "image": "",
+      "description": "The grand cultural showdown — Drishya brought the house down with a drama performance.",
+      "image": "assets/drama.jpg",
       "tag": "Fest"
     },
     {
@@ -61,18 +55,10 @@
       "title": "Inter-IIT 8.0 — Nukkad",
       "date": "2026-01-20",
       "description": "11th place in Nukkad Natak at Inter-IIT 8.0 — street theatre that left a mark.",
-      "image": "",
+      "image": "assets/nukkad.jpg",
       "tag": "Competition"
-    },
-    {
-      "title": "Murder Mystery Night",
-      "date": "2025-08-22",
-      "description": "An immersive whodunit where the audience was part of the investigation. Sold out in hours.",
-      "image": "",
-      "tag": "Performance"
     }
   ],
-
   "team": [
     {
       "name": "Nikhila Royal Anala",
@@ -105,7 +91,6 @@
       "quote": "When the lights hit right and the sound carries, the audience forgets they're watching."
     }
   ],
-
   "join": {
     "title": "Step On Stage",
     "description": "No experience needed. If you've ever felt something and wanted to express it — you're already one of us.",
@@ -117,7 +102,6 @@
       "linkedin": ""
     }
   },
-
   "footer": {
     "college": "IIT Bhilai",
     "year": 2026
